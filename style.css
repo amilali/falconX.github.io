@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+@font-face { 
+    font-family: myfont; 
+    src: url(https://res.cloudinary.com/djcmgdn0x/raw/upload/v1699363432/MonumentExtended-Regular_ttf_xvv89n.ttf); 
+    font-weight: 100; 
+    }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'myfont', sans-serif;
+    color: rgb(255, 255, 255);
+
+}
+
+body, html{
+    width: 100%;
+    height: 100vh;
+}
+
+*::selection{
+    background-color: #fff;
+    color: #000000;
+}
+
+#main{
+    width: 100%;
+    background-color: transparent;
+}
+
+#home{
+    width: 100%;
+    min-height: 100vh;
+    mix-blend-mode:difference;
+}
+#nav{
+       width: 100vw;
+       padding: 20px 20px;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+      
+}
+#nav img{
+    padding: 0;
+    margin: 0;
+    width: 60px;
+}
+
+#right{
+    padding: 10px 0px;
+}
+#right a{
+    font-weight: 1000;
+    letter-spacing: 2px;
+    text-decoration: none;
+    padding: 0px;
+    margin-bottom: 3px;
+    font-size: 24px;
+    padding-bottom: 0;
+    color: rgb(255, 255, 255);
+}
+#right i{
+    font-size: 28px;
+}
+#home-main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 9em 10em;
+}
+#heading{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#heading h1{
+    font-size: 54px;
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    font-weight: 100;
+    letter-spacing: 8px;
+}
+
+#home-main h4{
+    font-size: 22px;
+    font-weight: 100;   
+   
+}
+
+/* #logo {
+    animation: logo-animate 2s ease-in-out;
+} */
+
+/* @keyframes logo-animate {
+    from {
+        transform: scale(10);
+    }
+
+    to {
+        transform: scale(1);
+    }
+} */
+#my-video {
+    position: fixed;
+    min-width: 100%; 
+    min-height: 100%;
+    filter: blur(25px);
+    z-index: -1;
+    transform: scale(2);
+}               
