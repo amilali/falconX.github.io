@@ -122,3 +122,11 @@ body, html{
     z-index: -1;
     transform: scale(1.5);
 }               
+
+hr{
+    width: 10%;
+    margin-left: 50%;
+    margin-right: 50%;
+    transform: translate(-50%,-50%);
+    margin-bottom: 8px;
+}
