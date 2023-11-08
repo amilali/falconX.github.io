@@ -26,7 +26,6 @@ body {
     font-family: 'myfont', sans-serif;
     color: rgb(255, 255, 255);
     overflow-x: hidden;
-
 }
 
 body,
@@ -64,6 +63,8 @@ html {
     padding: 0;
     margin: 0;
     width: 60px;
+}
+#nav img:hover{
     filter: drop-shadow(0 0 0.15rem rgba(255, 255, 255, 0.519));
 }
 
@@ -151,4 +152,19 @@ hr {
     margin-right: 50%;
     transform: translate(-50%, -50%);
     margin-bottom: 8px;
+}
+#home-last{
+    font-size: 0.65rem;
+    text-align: center;
+    padding: 0em 15em;
+    letter-spacing: 2px;
+}
+
+.feature-project{
+    padding: 9em 10em;
+    mix-blend-mode: difference;
+}
+#fhead h1:nth-child(2){
+    color: transparent;
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
 }
