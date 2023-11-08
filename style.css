@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-
+  /* Hide scrollbar for chrome */
+  body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
 @font-face { 
     font-family: myfont; 
     src: url(https://res.cloudinary.com/djcmgdn0x/raw/upload/v1699363432/MonumentExtended-Regular_ttf_xvv89n.ttf); 
