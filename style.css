@@ -60,6 +60,7 @@ body, html{
     font-size: 24px;
     padding-bottom: 0;
     color: rgb(255, 255, 255);
+    
 }
 #right i{
     font-size: 28px;
@@ -87,7 +88,7 @@ body, html{
 
 #home-main h4{
     font-size: 22px;
-    font-weight: 100;   
+    font-weight:50;   
    
 }
 
@@ -110,5 +111,5 @@ body, html{
     min-height: 100%;
     filter: blur(25px);
     z-index: -1;
-    transform: scale(2);
+    transform: scale(1.5);
 }               
