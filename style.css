@@ -1,66 +1,77 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-  /* Hide scrollbar for chrome */
-  body::-webkit-scrollbar {
+
+/* Hide scrollbar for chrome */
+body::-webkit-scrollbar {
     display: none;
-  }
-  
-  /* Hide scrollbar for IE, Edge and Firefox */
-  body {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-  }
-@font-face { 
-    font-family: myfont; 
-    src: url(https://res.cloudinary.com/djcmgdn0x/raw/upload/v1699363432/MonumentExtended-Regular_ttf_xvv89n.ttf); 
-    font-weight: 100; 
-    }
-*{
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(https://res.cloudinary.com/djcmgdn0x/raw/upload/v1699363432/MonumentExtended-Regular_ttf_xvv89n.ttf);
+    font-weight: 100;
+}
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'myfont', sans-serif;
     color: rgb(255, 255, 255);
     overflow-x: hidden;
+
 }
 
-body, html{
+body,
+html {
     width: 100%;
     height: 100vh;
 }
 
-*::selection{
+*::selection {
     background-color: #fff;
     color: #000000;
 }
 
-#main{
+#main {
     width: 100%;
     background-color: transparent;
 }
 
-#home{
+#home {
     width: 100%;
     min-height: 100vh;
-    mix-blend-mode:difference;
+    mix-blend-mode: difference;
 }
-#nav{
-       width: 100vw;
-       padding: 20px 20px;
-       display: flex;
-       align-items: center;
-       justify-content: space-between;
-      
+
+#nav {
+    width: 100vw;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
-#nav img{
+
+#nav img {
     padding: 0;
     margin: 0;
     width: 60px;
+    filter: drop-shadow(0 0 0.15rem rgba(255, 255, 255, 0.519));
 }
 
-#right{
+#right {
     padding: 10px 0px;
 }
-#right a{
+
+#right a {
     font-weight: 1000;
     letter-spacing: 2px;
     text-decoration: none;
@@ -72,13 +83,19 @@ body, html{
     -webkit-text-stroke: 0.5px rgb(255, 255, 255);
     transition: 0.2s ease-in-out;
 }
-#right a:hover{
+
+#right a:hover {
     color: rgb(255, 255, 255);
+    filter: drop-shadow(5 5 0.75rem rgba(255, 255, 255, 0.519));
+    border-radius: 100%;
+
 }
-#right i{
+
+#right i {
     font-size: 36px;
 }
-#home-main{
+
+#home-main {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -86,12 +103,14 @@ body, html{
     align-items: center;
     padding: 9em 10em;
 }
-#heading{
+
+#heading {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
-#heading h1{
+
+#heading h1 {
     font-size: 54px;
     color: transparent;
     -webkit-text-stroke: 1px rgb(255, 255, 255);
@@ -99,9 +118,9 @@ body, html{
     letter-spacing: 8px;
 }
 
-#home-main h4{
+#home-main h4 {
     font-size: 22px;
-    font-weight:50;   
+    font-weight: 50;
 }
 
 /* #logo {
@@ -119,17 +138,17 @@ body, html{
 } */
 #my-video {
     position: fixed;
-    min-width: 100%; 
+    min-width: 100%;
     min-height: 100%;
     filter: blur(25px);
     z-index: -1;
     transform: scale(1.5);
-}               
+}
 
-hr{
+hr {
     width: 10%;
     margin-left: 50%;
     margin-right: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     margin-bottom: 8px;
 }
