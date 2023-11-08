@@ -11,7 +11,7 @@
     box-sizing: border-box;
     font-family: 'myfont', sans-serif;
     color: rgb(255, 255, 255);
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 body, html{
