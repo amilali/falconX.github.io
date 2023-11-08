@@ -66,13 +66,17 @@ body, html{
     text-decoration: none;
     padding: 0px;
     margin-bottom: 3px;
-    font-size: 24px;
+    font-size: 22px;
     padding-bottom: 0;
+    color: transparent;
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+    transition: 0.2s ease-in-out;
+}
+#right a:hover{
     color: rgb(255, 255, 255);
-    
 }
 #right i{
-    font-size: 28px;
+    font-size: 36px;
 }
 #home-main{
     width: 100%;
@@ -98,7 +102,6 @@ body, html{
 #home-main h4{
     font-size: 22px;
     font-weight:50;   
-   
 }
 
 /* #logo {
