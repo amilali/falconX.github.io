@@ -186,12 +186,12 @@ hr {
         font-size: 48px;
         letter-spacing: 3px;
         width: 100vw;
-        padding: 1px 13px;
+        padding: 1px 18px;
 
     }
     #heading{
         flex-direction: column;
-        padding: 1em 1em;
+        padding: 1em 1.2em;
         width: 100vw;
     }
     #heading h1{
@@ -213,7 +213,10 @@ hr {
 
     .feature-project{
         width: 100vw;
-        padding: 11em 1em;
+        padding: 11em 1.2em;
     }
 
+    #nav img{
+       
+    }
 }
