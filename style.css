@@ -168,3 +168,48 @@ hr {
     color: transparent;
     -webkit-text-stroke: 0.5px rgb(255, 255, 255);
 }
+
+/* Mobile Responsiveness */
+@media only screen and (max-width: 600px){
+    #home-main:nth-child(1) {
+        padding: 11em 3em;
+        flex-direction: row;
+      justify-content: left;
+ 
+     
+    }
+    #home-main h4{
+        font-size: 48px;
+        letter-spacing: 3px;
+        width: 100vw;
+        padding: 1px 13px;
+
+    }
+    #heading{
+        flex-direction: column;
+        padding: 1em 1em;
+        width: 100vw;
+    }
+    #heading h1{
+        letter-spacing: 3px;
+        font-size: 58px;
+    }
+
+    #home-last{
+        padding: 2em 2em;
+    }
+    #home-last p{
+        text-align: left;
+        font-size: 0.65rem;
+        text-transform: lowercase;
+        text-rendering: geometricPrecision;
+      
+    }
+
+
+    .feature-project{
+        width: 100vw;
+        padding: 11em 1em;
+    }
+
+}
