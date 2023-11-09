@@ -178,6 +178,10 @@ hr {
  
      
     }
+    #home-main{
+        padding-top: 5em;
+    }
+
     #home-main h4{
         font-size: 48px;
         letter-spacing: 3px;
@@ -203,7 +207,7 @@ hr {
         font-size: 0.65rem;
         text-transform: lowercase;
         text-rendering: geometricPrecision;
-      
+        line-height: 14px;
     }
 
 
