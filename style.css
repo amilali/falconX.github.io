@@ -174,7 +174,7 @@ hr {
 }
 
 /* Mobile Responsiveness */
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 950px){
     #home-main:nth-child(1) {
         padding: 11em 3em;
         flex-direction: row;
