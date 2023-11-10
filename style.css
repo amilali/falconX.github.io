@@ -65,7 +65,7 @@ html {
     width: 60px;
 }
 #nav img:hover{
-    filter: drop-shadow(0 0 0.15rem rgba(255, 255, 255, 0.519));
+    filter: drop-shadow(0 0 0.75rem rgba(255, 255, 255, 0.519));
 }
 
 #right {

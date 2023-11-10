@@ -17,6 +17,6 @@ pau.addEventListener('click', () => {
     }
 });
 
-Howler.volume(0.1);
+
 
   
