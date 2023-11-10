@@ -187,6 +187,9 @@ hr {
         letter-spacing: 3px;
         width: 100vw;
         padding: 1px 18px;
+        color: rgba(255, 255, 255, 0.342);
+        background-image: url(https://media0.giphy.com/media/9JxkPTP3alOykb8PmQ/giphy.gif?cid=ecf05e47stdvc0o8s3pnh651c23isusuhhw1lbw8fp7cngir&ep=v1_gifs_search&rid=giphy.gif&ct=g);
+        -webkit-background-clip: text;
 
     }
     #heading{
@@ -216,7 +219,4 @@ hr {
         padding: 11em 1.2em;
     }
 
-    #nav img{
-       
-    }
 }
