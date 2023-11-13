@@ -37,7 +37,7 @@ function myAnimation(){
 myAnimation();
 
 // const scroll = new LocomotiveScroll({
-//   el: document.querySelector('body'),
+//   el: document.querySelector('#main'),
 //   smooth: true
 // });
 
@@ -70,7 +70,7 @@ Shery.mouseFollower();
         ScrollTrigger.create({
           trigger: section,
           start: "top top",
-          scrub: 1,
+          scrub: 4,
           onUpdate: function (prog) {
             setScroll(prog.progress + index);
           },
@@ -81,3 +81,12 @@ Shery.mouseFollower();
 
 
 
+
+
+
+
+  Shery.makeMagnet(".magnet" /* Element to target.*/, {
+    //Parameters are optional.
+    ease: "cubic-bezier(0.23, 1, 0.320, 1)",
+    duration: 1,
+  });
