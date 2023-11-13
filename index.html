@@ -6,8 +6,10 @@
     <meta property="og:image" content="https://res.cloudinary.com/djcmgdn0x/image/upload/v1699723363/Group_2185_1_ztyem6.png"/>
     <meta property='og:image:width' content='1920' />
     <meta property='og:image:height' content='1080' />
-
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <link rel="stylesheet" href="style.css" />
+
     <link
       rel="shortcut icon"
       href="https://res.cloudinary.com/djcmgdn0x/image/upload/v1699431418/Group_2185_1_pbxjhh.png"
@@ -25,6 +27,7 @@
       <source
         src="https://res.cloudinary.com/djcmgdn0x/video/upload/v1699425261/video_bg_tdkw4o.mp4"
         type="video/mp4"
+ 
       />
     </video>
     <div id="main">
@@ -45,9 +48,9 @@
         <div id="home-main">
           <h4>Falcon Media</h4>
           <div id="heading">
-            <h1>Digital</h1>
-            <h1>Media</h1>
-            <h1>Agency</h1>
+            <h1 class="hva">Digital</h1>
+            <h1 class="hva">Media</h1>
+            <h1 class="hva">Agency</h1>
           </div>
         </div>
         <div id="home-last">
@@ -66,33 +69,59 @@
           <h1>Featured</h1>
           <h1>Projects</h1>
         </div>
+        <div id="fcont">
+          <div id="fleft">
+            <div class="flefth">
+              <h3>
+                Amil Ali
+              </h3>
+              <h1>
+               Full stack developer and Ui/Ux Designer
+              </h1>
+            </div>
+            <div class="flefth">
+              <h3>
+                Amil Ali
+              </h3>
+              <h1>
+               Full stack developer and Ui/Ux Designer
+              </h1>
+            </div>
+            <div class="flefth">
+              <h3>
+                Amil Ali
+              </h3>
+              <h1>
+               Full stack developer and Ui/Ux Designer
+              </h1>
+            </div>
+            <div class="flefth last">
+              <h3>
+                Amil Ali
+              </h3>
+              <h1>
+               Full stack developer and Ui/Ux Designer
+              </h1>
+            </div>
+          </div>
+          <div id="fright">
+            <div class="fimg">
+              <img src="https://images.unsplash.com/photo-1587701710984-8627482c1fbc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8" alt="">
+              <img src="https://images.unsplash.com/photo-1587701710984-8627482c1fbc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8" alt="">
+              <img src="https://images.unsplash.com/photo-1587701710984-8627482c1fbc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8" alt="">
+
+            </div>
+          </div>
+        </div>
+
       </div>
+    
 
-      <!-- <hr>
-        <h1 style="font-size: 12px; font-weight: 100; text-align: center;">Coming soon!
-        </h1> -->
-      <pre></pre>
-      <footer>
-        <h4
-          style="
-            text-align: center;
-            padding: 15px;
-            letter-spacing: 5px;
-            font-size: 12px;
-          "
-        >
-          Created By: Amil Ali
-        </h4>
-      </footer>
+    
     </div>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
-      integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
 
-    <script src="script.js"></script>
+
+   
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.4/howler.min.js"
       integrity="sha512-xi/RZRIF/S0hJ+yJJYuZ5yk6/8pCiRlEXZzoguSMl+vk2i3m6UjUO/WcZ11blRL/O+rnj94JRGwt/CHbc9+6EA=="
@@ -100,5 +129,18 @@
       referrerpolicy="no-referrer"
     ></script>
     <script src="audio.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+<!-- Scroll Trigger is needed for Scroll Effects -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+ 
+<!-- Three.js is needed for 3d Effects -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.158.0/three.min.js" integrity="sha512-/WaZCC76Yn6MLEoK6b9np9yiLBet/RngBS33X1P0SHuag6j2E0e5rT7jbA2CvXCydN6+FkDYNx8FBM+vkzsthw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- ControlKit is needed for Debug Panel -->
+<script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+
+<script  type="text/javascript"  src="https://unpkg.com/sheryjs/dist/Shery.js"></script> 
+<script src="script.js"></script> 
   </body>
 </html>

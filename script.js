@@ -35,3 +35,49 @@ function myAnimation(){
 
 }
 myAnimation();
+
+// const scroll = new LocomotiveScroll({
+//   el: document.querySelector('body'),
+//   smooth: true
+// });
+
+Shery.mouseFollower();
+
+  Shery.hoverWithMediaCircle(".hva", {
+    videos: ["https://media.istockphoto.com/id/1399092574/video/adventurous-woman-on-a-rocky-mountain-overlooking-ocean-coast.mp4?s=mp4-640x640-is&k=20&c=xqpqkkQgwjJvb3IXekuXSOYa-ajiNW_eFZFIT1vkFHY="]
+  });
+
+
+  gsap.to(".flefth", {
+    scrollTrigger: {
+      trigger: "#fcont",
+      pin: true,
+      start: "top top",
+      end: "bottom bottom",
+      endTrigger: ".last",
+      scrub: 1,
+    },
+    y: "-300%",
+    ease: Power1,
+  });
+
+  let sections = document.querySelectorAll(".flefth");
+  Shery.imageEffect(".fimg", {
+    style: 4,
+    config: { onMouse: { value: 1 } },
+    slideStyle: (setScroll) => {
+      sections.forEach(function (section, index) {
+        ScrollTrigger.create({
+          trigger: section,
+          start: "top top",
+          scrub: 1,
+          onUpdate: function (prog) {
+            setScroll(prog.progress + index);
+          },
+        });
+      });
+    },
+  });
+
+
+
