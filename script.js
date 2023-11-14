@@ -57,7 +57,7 @@ Shery.mouseFollower();
       endTrigger: ".last",
       scrub: 1,
     },
-    y: "-200%",
+    y: "-300%",
     ease: Power1,
   });
 

@@ -117,6 +117,7 @@ html {
     -webkit-text-stroke: 1px rgb(255, 255, 255);
     font-weight: 100;
     letter-spacing: 8px;
+    cursor: pointer;
 }
 
 #heading h1:hover{
@@ -175,14 +176,17 @@ hr {
     width: 50%;
     height: 100vh;
     overflow: hidden;
+    padding-right: 2em;
 }
 
 #fright{
-    width: 50%;
-    height: 100%;
+    width: 50vw;
+    height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    align-items: end;
+    justify-content: end;
+    padding-left: 2em;
+
 }
 
 .flefth{
@@ -190,13 +194,20 @@ hr {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content:center;
+    align-items:center;
+    /* border: 2px solid white; */
 }
 
 .flefth h1{
     text-align: center;
-    font-size: 22px;
+    font-size: 78px;
+
+}
+.flefth h3{
+   text-align: right;
+ font-size: 12px;
+ letter-spacing: 1px;
 }
 .fimg{
     width: 100%;
@@ -266,6 +277,17 @@ hr {
     .feature-project{
         width: 100vw;
         padding: 11em 1.2em;
+    }
+
+    .flefth{
+        padding-right: 0.5em;
+    }
+    .flefth h1{
+        font-size: 38px;
+        text-align: right;
+    }
+    .flefth h3{
+        font-size: 8px;
     }
 
 }
